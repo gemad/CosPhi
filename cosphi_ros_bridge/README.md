@@ -12,10 +12,8 @@ Setup and Running :
 2. Run $catkin_make to consider the new files 
 3. Run the main program as illustrated in the main tutorial of CosPhi
 4. Run the roscore node by using command $roscore
-4. Run the bridge by using command  
-```$rosrun CosPhi_ros_bridge CosPhi_ros_bridge_node.py```
-5. type ```$rostopic list```
- you will find a topic for each robot detected
+5. Run the bridge by using command ```$rosrun CosPhi_ros_bridge CosPhi_ros_bridge_node.py```
+6. type ```$rostopic list```  you will find a topic for each robot detected
 
 
 Test the output :
@@ -34,7 +32,7 @@ you can  listen to the old output on this topic
 
 error and solution :
 -----------------------------------
-if this error appears  just try to run the node again
+If the following error appears  just try to run the node again
 
 ```
 Traceback (most recent call last):
@@ -44,9 +42,3 @@ Traceback (most recent call last):
     X = float(Array_All[2])
 ValueError: could not convert string to float: of
 ```
-
-
-
-
-
-
