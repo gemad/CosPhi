@@ -36,9 +36,9 @@ error and solution :
 if this error appears  just try to run the node again
 
 "Traceback (most recent call last):
-  File "/home/gemad/catkin_ws/src/cosphi_ros_bridge/scripts/cosphi_ros_bridge_node.py", line 49, in <module>
+  File "~/catkin_ws/src/cosphi_ros_bridge/scripts/cosphi_ros_bridge_node.py", line 49, in <module>
     main()   
-  File "/home/gemad/catkin_ws/src/cosphi_ros_bridge/scripts/cosphi_ros_bridge_node.py", line 32, in main
+  File "~/catkin_ws/src/cosphi_ros_bridge/scripts/cosphi_ros_bridge_node.py", line 32, in main
     X = float(Array_All[2])
 ValueError: could not convert string to float: of
 "
